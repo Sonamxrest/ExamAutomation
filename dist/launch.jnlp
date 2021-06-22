@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>ExamCell</title>
+        <vendor>xrest</vendor>
+        <homepage href=""/>
+        <description>ExamCell</description>
+        <description kind="short">ExamCell</description>
+    </information>
+    <update check="always"/>
+    <resources>
+        <j2se version="1.8+"/>
+        <jar href="ExamCell.jar" main="true"/>
+    <jar href="lib/itext-pdfa-5.3.1.jar"/>
+<jar href="lib/itext-xtra-5.5.13.1.jar"/>
+<jar href="lib/itextpdf-5.5.13.1.jar"/>
+<jar href="lib/mysql-connector-java-5.1.7-bin.jar"/>
+<jar href="lib/AbsoluteLayout.jar"/>
+<jar href="lib/itext-pdfa-5.3.1.jar"/>
+<jar href="lib/itext-xtra-5.5.13.1.jar"/>
+<jar href="lib/itextpdf-5.5.13.1.jar"/>
+<jar href="lib/mysql-connector-java-5.1.7-bin.jar"/>
+<jar href="lib/jcalendar-1.4.jar"/>
+<jar href="lib/AnimatonClass.jar"/>
+<jar href="lib/mysql-connector.jar"/>
+<jar href="lib/mysql-connector-java-5.1.7-bin.jar"/>
+</resources>
+    <application-desc main-class="examcell.Front">
+    </application-desc>
+</jnlp>
